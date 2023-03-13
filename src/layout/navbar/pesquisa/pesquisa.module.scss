@@ -1,0 +1,43 @@
+@import "../../../components/sass/mixins.module";
+
+.pesquisaContainer {
+  display: flex;
+  flex-direction: row;
+  max-width: 425px;
+  width: 50%;
+  overflow: hidden;
+
+  input {
+    border: 1px solid #e2e2e2;
+    width: 85%;
+    padding: 4px 6px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #f7f8fa;
+    font-size: clamp(12px, 2vw, 16px);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  button {
+    flex: 1;
+    cursor: pointer;
+    border: 1px solid var(--cor-bleu-de-france);
+    background-color: var(--cor-bleu-de-france);
+    box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
+    width: 30px;
+    height: 30px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: relative;
+
+    ion-icon {
+        @include centralização-vertical;
+        color: white;
+    }
+
+    @media (min-width: 320px) {
+      width: 64px;
+      height: 40px;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import "../../sass/mixins.module.scss";
+
+.cardTiposDePacotes {
+  width: 25vw;
+  padding-left: 1vw;
+  padding-bottom: 3vw;
+  cursor: pointer;
+  margin: 0 8px 15px 0;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  position: relative;
+  top: 0;
+  transition: all 0.4s;
+  @include sombra;
+  border: 1px solid rgba(122, 122, 122, 0.342);
+  border-radius: 8px;
+
+  .cardTiposDePacotes:hover {
+    position: relative;
+    top: 10px;
+  }
+
+  .imgDoPacote {
+    float: right;
+    padding-bottom: 1vw;
+    width: 100%;
+  }
+  .nomeDoPacote {
+    font-family: "SimsFont";
+    font-size: calc(0.6em + 1vw);
+    padding-bottom: 1vw;
+  }
+  .descricaoDoPacote {
+    width: 80%;
+    font-size: calc(0.3rem + 0.64vw);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+

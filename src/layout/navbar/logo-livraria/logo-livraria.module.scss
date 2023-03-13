@@ -1,0 +1,24 @@
+.logo,
+.logoSemLink {
+  img, .imgLogoSemLink {
+    width: clamp(55px, 10vw, 65px);
+  }
+  span {
+    padding: 0;
+    margin: 0 0 0 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #2A2D34;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo {
+    float: right;
+    margin-left: 15px;
+    span {
+      display: none;
+    }
+  }
+}

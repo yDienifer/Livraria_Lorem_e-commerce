@@ -1,0 +1,72 @@
+@import ".././sass/mixins.module.scss";
+@import "../sass/_variables.module.scss";
+
+.promocoesCatalogo {
+  background-color: var(--cor-cinza-claro);
+  padding-bottom: 30px;
+
+  .carrossel {
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  .carrossel::-webkit-scrollbar {
+    display: none;
+  }
+  .cardsContainer {
+    display: flex;
+    flex: none;
+  }
+  .card {
+    @include card-resp(3%);
+  }
+  .btns {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+
+    button {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+    }
+    ion-icon {
+      border: 1px solid white;
+      border-radius: 100%;
+      padding: 5px;
+      margin-right: 12px;
+      color: rgb(255, 255, 255);
+      font-size: 35px;
+      transition: 0.4s;
+    }
+    .btns ion-icon:hover {
+      color: rgb(255, 0, 0);
+    }
+  }
+}
+
+// Responsividade
+@media (max-width: 768px) {
+  .lancamentosCatalogo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    text-align: left;
+  }
+  .btns button {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .card {
+    flex: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .lancamentosCatalogo {
+    padding-top: 9vw;
+  }
+}

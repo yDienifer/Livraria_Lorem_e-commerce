@@ -1,0 +1,115 @@
+@import "../../components/sass/mixins.module";
+
+header {
+  position: fixed;
+  -webkit-backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 0 0;
+  width: 100%;
+  z-index: 5;
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: white;
+
+  .navMobile {
+    @include centralização-vertical;
+    width: 95vw;
+  }
+
+  .funcionalidades {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  span,
+  li,
+  a {
+    color: rgba(0, 0, 0, 0.678);
+    transition: 0.3s;
+  }
+
+  span:hover,
+  li:hover,
+  a:hover {
+    color: rgb(0, 0, 0);
+  }
+
+  nav {
+    width: 100%;
+    z-index: 5;
+    margin-top: 10px;
+    background-color: #f7f8fa;
+    transition: 0.4s;
+
+    ion-icon {
+      font-size: 12px;
+      vertical-align: middle;
+      cursor: pointer;
+      margin-left: 5px;
+    }
+    .menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 10px;
+      margin: 0;
+    }
+    .menu li,
+    span {
+      font-size: 16px;
+      color: black;
+      padding: 0 2rem;
+    }
+    .dropdown {
+      position: absolute;
+      top: 124px;
+      background-color: #f8f9fadc;
+      padding: 10px;
+      border-radius: 5px;
+      transition: 0.5s;
+      box-shadow: 0px 2.2px 1px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0px 2.2px 1px rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 0px 2.2px 1px rgba(0, 0, 0, 0.1);
+
+      li a {
+        margin-left: -25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header nav .menu {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  header {
+    display: flex;
+  }
+}
+
+@media (max-width: 320px) {
+  header {
+    position: relative;
+    width: 100%;
+
+    .logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 70px;
+    }
+  }
+}

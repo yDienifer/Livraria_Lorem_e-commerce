@@ -1,0 +1,199 @@
+@import "../../components/sass/mixins.module";
+
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #e4e4e4;
+  background-size: 45%;
+  background-position-x: 81%;
+  background-repeat: no-repeat;
+  margin-top: 29vw;
+
+  .linha1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .novidadesContainer {
+      justify-content: flex-end;
+      align-items: flex-end;
+      max-width: 768px;
+      margin: -15px 0 0 45px;
+    }
+    .secoesAtalhos {
+      display: flex;
+      margin-left: 15px;
+      z-index: 2;
+    }
+  }
+  .atalhosContainer {
+    position: relative;
+    margin-top: 3rem;
+
+    .atalho {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: flex-end;
+      max-width: 768px;
+      margin: 0 auto;
+      @include centralização-vertical;
+      padding: 10px;
+      background-color: #c9c9c9;
+      width: 100%;
+
+      ul {
+        width: 100%;
+      }
+      li a {
+        font-size: calc(0.6em + 0.5vw);
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        transition: all 0.6s;
+      }
+      li a:hover {
+        color: var(--cores--cor-bleu-de-france);
+      }
+    }
+  }
+  .pngSim {
+    position: absolute;
+    bottom: 0;
+    left: -7px;
+    width: 510px;
+    z-index: 1;
+  }
+  .redesSociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c9c9c9;
+    width: 100%;
+    padding: 9px;
+    margin-top: 70px;
+    border-top: 1px solid rgba(0, 0, 0, 0.452);
+
+    p {
+      color: white;
+      margin: 0;
+      padding: 5px 0 10px 0;
+      font-size: max(0.8rem, 1.3vw);
+    }
+  }
+  .direitosAutorais {
+    position: relative;
+    background-color: var(--cores--cor-saffron);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    p {
+      font-size: max(0.7rem, 1.3vw);
+      color: white;
+      margin: 0;
+      width: 100%;
+      z-index: 1;
+    }
+    img {
+      cursor: pointer;
+      width: 100%;
+      max-width: 200px;
+      float: right;
+      margin-left: auto;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  footer {
+    .linha1 {
+      .novidadesContainer {
+        margin-right: 10vw;
+      }
+      .secoesAtalhos {
+        position: relative;
+        left: 110px;
+        .secaoContatos {
+          padding-right: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    .linha1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 100vw;
+
+      .novidadesContainer {
+        margin: 0;
+      }
+    }
+
+    .secoesAtalhos {
+      margin: 50px auto 30px auto;
+      order: 1;
+    }
+
+    .pngSim {
+      display: none;
+    }
+
+    .atalhosContainer {
+      .atalho {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  footer {
+    margin-top: 39vw;
+    background: url("../../../public/static/img/footer/icon_grid.svg");
+    
+    .linha1 {
+      position: relative;
+      left: 0;
+      .secoesAtalhos {
+        flex-direction: column;
+     
+        .secaoSobre {
+          margin: 30px 0;
+        }
+      }
+    }
+    .redesSociais {
+      margin-top: 82px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  footer {
+    background-size: 560px;
+    .linha1 {
+      .secoesAtalhos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto;
+        left: 0;
+        .secaoContatos {
+          padding: 0;
+        }
+      }
+    }
+  }
+}

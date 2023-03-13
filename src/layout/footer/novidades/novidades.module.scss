@@ -1,0 +1,51 @@
+@import "../../../components/sass/mixins.module";
+@import "../../../components/sass/variables.module";
+
+.novidadesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--cor-bleu-de-france);
+  background-blend-mode: multiply;
+  background-size: 100%;
+  width: 40vw;
+  padding: 30px;
+  border-radius: 10px;
+  @include sombra;
+
+  p {
+    font-family: "SimsFont", sans-serif;
+    color: #ffffff;
+    filter: drop-shadow(0px 2.2px 1px rgba(0, 0, 0, 0.1));
+    padding-bottom: 15px;
+    font-size: calc(0.7em + 1vw);
+    text-align: left;
+  }
+  span {
+    font-family: "SimsFont", sans-serif;
+    color: var(--cores--cor-bleu-de-france);
+  }
+  .teste {
+    width: 100%;
+    input {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .novidadesContainer {
+    width: 80vw;
+    margin: -10px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .novidadesContainer {
+    width: 81vw;
+    background-size: cover;
+    p {
+      padding-bottom: 0;
+    }
+  }
+}

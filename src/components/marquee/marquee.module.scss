@@ -1,0 +1,40 @@
+.marquee {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #d8d8d8;
+  padding: 20px;
+  overflow: hidden;
+
+  h1 {
+    font-family: "SimsFont";
+    color: white;
+    font-size: clamp(1rem, 0.4324rem + 2.4218vw, 2.5rem);
+    white-space: nowrap;
+    padding: 0 6rem;
+    animation: move-rt1 6000ms linear infinite;
+  }
+  span {
+    font-family: "SimsFont";
+    color: var(--cor-principal);
+    animation: colors 4s infinite;
+  }
+  @keyframes move-rt1 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translatex(-100%);
+    }
+  }
+  @keyframes colors {
+    0% {
+      color: var(--cor-principal);
+    }
+    50% {
+      color: var(--cor-secundaria);
+    }
+    100% {
+      color: var(--cor-principal);
+    }
+  }
+}

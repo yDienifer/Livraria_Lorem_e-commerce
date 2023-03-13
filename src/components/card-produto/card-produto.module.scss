@@ -1,0 +1,125 @@
+@import "../sass/_mixins.module.scss";
+
+.cardProduto {
+  display: flex;
+  word-wrap: break-word;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 18vw;
+  cursor: pointer;
+  border: 1px solid rgba(122, 122, 122, 0.342);
+  border-radius: 8px;
+  position: relative;
+  background-color: #fcfcfc;
+
+  .cardProduto:hover {
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  .nomeDoProduto {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: max(14px, 1.54vw);
+    width: 90%;
+    max-width: 200px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding-top: 10px;
+    letter-spacing: 0.3px;
+  }
+
+  .nomeDoProduto,
+  .avaliacaoDoProduto,
+  .descricaoDoProduto {
+    margin-top: 2px;
+  }
+
+  .infoProduto {
+    padding: 15px;
+  }
+
+  .infoProduto,
+  .nomeDoProduto,
+  .descricaoDoProduto {
+    float: left;
+  }
+
+  .descricaoDoProduto {
+    font-size: 0.9rem;
+    color: var(--cor-paragrafo);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .precoPromocaoDoProduto,
+  .precoOriginalDoProduto {
+    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .precoPromocaoDoProduto {
+    font-size: max(14px, 1.7vw);
+    color: var(--cor-shamrock-green);
+    font-weight: bold;
+    width: 100%;
+    padding-top: 0.3rem;
+  }
+
+  .precoOriginalDoProduto {
+    color: rgba(201, 185, 185, 0.671);
+    text-decoration: line-through;
+    font-size: max(12px, 1vw);
+    margin-top: -20px;
+  }
+
+  .imgCard {
+    width: 83%;
+    margin-top: -15px;
+    border-radius: 5px;
+    @include sombra;
+  }
+
+  .compraOuFav {
+    display: flex;
+    justify-content: center;
+    font-size: max(12px, 1.6rem);
+
+    ion-icon {
+      margin: 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .cardProduto {
+    width: 41vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .nomeDoProduto {
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .descricaoDoProduto {
+    width: 0;
+    height: 0;
+  }
+  .precoPromocaoDoProduto {
+    width: 100%;
+  }
+  .compraOuFav {
+    margin-top: -25px;
+  }
+}

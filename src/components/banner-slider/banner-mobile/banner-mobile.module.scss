@@ -1,0 +1,26 @@
+.bannerContainer {
+  display: none;
+  position: relative;
+  top: 20vw;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  .imgBanner {
+    width: 100%;
+  }
+}
+
+.imgLogo {
+  margin-top: -55px;
+  filter: drop-shadow(2px 2px 0.4px rgb(255, 255, 255));
+  float: none;
+  width: 100%;
+  max-width: 339px;
+}
+
+@media (max-width: 425px) {
+  .bannerContainer {
+    display: none;
+  }
+}

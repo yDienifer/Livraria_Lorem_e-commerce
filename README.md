@@ -1,3 +1,11 @@
+Missoes
+Arrumar o scss
+arrumar a responsividade do footer
+troque o 'a' por link
+escrever o nome das fotos resumidamente, e separar as palavras por _
+mudar o styled components por sass (pasta)
+deixe tudo em portugues
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

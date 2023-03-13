@@ -1,0 +1,71 @@
+@import "../sass/variables.module";
+@import ".././sass/mixins.module.scss";
+
+.categoriasContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  text-align: left;
+
+  .btns {
+    display: flex;
+    justify-content: right;
+    margin-bottom: -15px;
+
+    button {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+    }
+    .btnVerTodos {
+      border: 2px solid rgba(122, 121, 121, 0.685);
+      padding: 12px;
+      border-radius: 12px;
+    }
+    .btnVerTodos:hover {
+      border: 2px solid rgba(49, 49, 49, 0.685);
+      transition: all 0.4s;
+    }
+    ion-icon {
+      border: 2px solid rgba(122, 121, 121, 0.685);
+      border-radius: 100%;
+      padding: 5px;
+      margin-right: 12px;
+      color: rgb(0, 0, 0);
+      font-size: clamp(20px, 3vw, 32px);
+      transition: all 0.4s;
+    }
+    ion-icon:hover {
+      border: 2px solid rgba(49, 49, 49, 0.685);
+    }
+    .btns ion-icon:hover {
+      color: rgb(255, 0, 0);
+    }
+  }
+
+  .carrossel {
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+
+  .tituloDaSecao {
+    font-size: clamp(18px, 3vw, 32px);
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 9vw auto 0 auto;
+    z-index: -1;
+  }
+
+  .carrossel::-webkit-scrollbar {
+    display: none;
+  }
+
+  .icons {
+    display: flex;
+  }
+}

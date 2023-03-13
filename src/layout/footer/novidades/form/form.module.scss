@@ -1,0 +1,68 @@
+@import "./../../../../components/sass/variables.module";
+@import "./../../../../components/sass/mixins.module";
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+
+  input:nth-of-type(1) {
+    border: 2px solid rgb(212, 212, 212);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 5px;
+    padding: 19px;
+    transition: all 0.6s;
+    cursor: pointer;
+    box-shadow: 0px 2.2px 1px #0000001a;
+    -moz-box-shadow: 0px 2.2px 1px #0000001a;
+    -webkit-box-shadow: 0px 2.2px 1px #0000001a;
+    background: #ffffff1a;
+    box-shadow: 0 8px 32px 0 #1f26875e;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid #ffffff2e;
+  }
+  input::-webkit-input-placeholder {
+    font-size: calc(0.6em + 0.5vw);
+    color: white;
+    filter: drop-shadow(0px 2.2px 1px #0000001a);
+  }
+  input:nth-of-type(1):focus {
+    box-shadow: var(--cor-saffron) 0px 7px 29px 0px;
+    border: 2px solid var(--cor-saffron);
+  }
+  input:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  input:nth-of-type(1):focus:-moz-placeholder {
+    color: transparent;
+  }
+  input:nth-of-type(1):focus::-moz-placeholder {
+    color: transparent;
+  }
+  input:nth-of-type(1):focus:-ms-input-placeholder {
+    color: transparent;
+  }
+
+  input:nth-of-type(2) {
+    margin-top: 5px;
+    padding: 6px;
+    border: none;
+    background-color: var(--cor-lavender-pink);
+    z-index: 2;
+    border-radius: 3px;
+    width: 100%;
+    color: white;
+  }
+}
+
+@media (max-width: 320px) {
+  .formContainer {
+    input:nth-of-type(1) {
+      padding: 10px;
+    }
+  }
+}

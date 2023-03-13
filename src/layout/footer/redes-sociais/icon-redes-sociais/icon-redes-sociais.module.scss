@@ -1,0 +1,20 @@
+.iconRedesSociaisContainer {
+  ion-icon {
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  ion-icon {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  ion-icon {
+    font-size: 12px;
+  }
+}

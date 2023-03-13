@@ -1,0 +1,44 @@
+{
+    "Promocoes": [
+        {
+            "imgCard": "static/img/sale/the-sims-4-vida-campestre.jpeg",
+            "altImgCard": "The Sims™ 4 Vida Campestre",
+            "nomeDoProduto": "The Sims™ 4 Vida Campestre",
+            "descricaoDoProduto": "Aproveite o charme singular de The Sims™ 4 Pacote de Expansão Vida Campestre..",
+            "precoPromocaoDoProduto": "R$ 89,55",
+            "precoOriginalDoProduto": "R$ 199,00"
+        },
+        {
+            "imgCard": "static/img/sale/the-sims-4-diversao-na-neve.jpeg",
+            "altImgCard": "The Sims™ 4 Diversão na Neve",
+            "nomeDoProduto": "The Sims™ 4 Diversão na Neve",
+            "descricaoDoProduto": "Aproveite o charme singular de The Sims™ 4 Pacote de Expansão Vida Campestre..",
+            "precoPromocaoDoProduto": "R$ 89,55",
+            "precoOriginalDoProduto": "R$ 199,00"
+        },
+        {
+            "imgCard": "static/img/sale/the-sims-4-truques-de-trico.jpeg",
+            "altImgCard": "The Sims™ 4 Truques de Tricô",
+            "nomeDoProduto": "The Sims™ 4 Truques de Tricô",
+            "descricaoDoProduto": "Aproveite o charme singular de The Sims™ 4 Pacote de Expansão Vida Campestre..",
+            "precoPromocaoDoProduto": "R$ 89,55",
+            "precoOriginalDoProduto": "R$ 199,00"
+        },
+        {
+            "imgCard": "static/img/sale/the-sims-4-ilhas-tropicas.jpeg",
+            "altImgCard": "The Sims™ 4 Ilhas Tropicais",
+            "nomeDoProduto": "The Sims™ 4 Ilhas Tropicais",
+            "descricaoDoProduto": "Aproveite o charme singular de The Sims™ 4 Pacote de Expansão Vida Campestre..",
+            "precoPromocaoDoProduto": "R$ 89,55",
+            "precoOriginalDoProduto": "R$ 199,00"
+        },
+        {
+            "imgCard": "static/img/sale/the-sims-4-junte-se-a-galera.jpeg",
+            "altImgCard": "The Sims™ 4 Junte-se à Galera",
+            "nomeDoProduto": "The Sims™ Junte-se à Galera",
+            "descricaoDoProduto": "Aproveite o charme singular de The Sims™ 4 Pacote de Expansão Vida Campestre..",
+            "precoPromocaoDoProduto": "R$ 89,55",
+            "precoOriginalalDoProduto": "R$ 199,00"
+        }
+    ]
+}

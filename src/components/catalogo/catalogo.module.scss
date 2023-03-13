@@ -1,0 +1,9 @@
+.cardsContainer {
+    margin-top: 9vw;
+}
+
+@media (max-width: 375px) {
+    .cardsContainer {
+        margin-top: 0;
+    }
+}

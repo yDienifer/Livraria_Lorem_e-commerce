@@ -1,0 +1,46 @@
+@import "../../sass/mixins.module";
+
+.iconCategoriaContainer {
+  border: none;
+  background: none;
+  width: clamp(15px, 41vw, 150px);
+  cursor: pointer;
+  margin: 0 6px 0 0;
+  padding-top: 2rem;
+  transition: 0.4s;
+}
+
+.iconCategoriaContainer:hover {
+  transform: translateY(-5px);
+}
+
+.imgDaCategoria {
+  display: flex;
+  border: 1px solid rgba(119, 119, 119, 0.37);
+  width: clamp(80px, 10vw, 100px);
+  border-radius: 8px;
+  @include sombra;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.tituloDaCategoria {
+  font-size: max(10px, 1vw);
+  width: 100%;
+  padding-top: 15px;
+  text-align: left;
+}
+
+// Responsividade
+@media (max-width: 375px) {
+  .iconCategoriaContainer {
+    margin: 0;
+    height: 60vw;
+  }
+  .imgDaCategoria {
+    width: 20vw;
+  }
+  .iconCategoriaContainer {
+    margin-right: 2vw;
+  }
+}

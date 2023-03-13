@@ -1,0 +1,43 @@
+@import "../../sass/mixins.module";
+
+.textoBannerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 0;
+  margin: 0;
+
+  h1 {
+    font-size: clamp(18px, 3vw, 32px);
+    width: 42vw;
+  }
+}
+
+.descricaoPacote {
+  @include descricao-anuncio;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .textoBannerContainer {
+    position: relative;
+    background: none;
+    box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    border-radius: none;
+    border: none;
+    border-radius: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .textoBannerContainer {
+    width: 85%;
+    margin-top: 50px;
+
+    h1 {
+      width: 85%;
+    }
+  }
+}

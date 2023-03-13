@@ -1,0 +1,61 @@
+.bannerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.textoBanner {
+  display: flex;
+  align-items: baseline;
+}
+
+.imgBanner {
+  margin-right: 90px;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.imgLogo {
+  margin-top: -55px;
+  filter: drop-shadow(2px 2px 0.4px rgb(255, 255, 255));
+  float: none;
+  width: 100%;
+  max-width: 339px;
+}
+
+@media (max-width: 768px) {
+  .bannerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .imgBanner {
+    margin-right: 40px;
+    width: 40%;
+  }
+}
+
+@media (max-width: 425px) {
+  .bannerContainer {
+    flex-direction: column;
+    margin-top: 45px;
+
+    img {
+      width: 100vw;
+      margin: 0;
+    }
+    .textoBanner {
+      margin-top: 60px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .bannerContainer {
+    height: 100vw;
+  }
+}

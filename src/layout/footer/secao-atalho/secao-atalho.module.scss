@@ -1,0 +1,40 @@
+.secaoAtalhoContainer {
+  span {
+    font-size: clamp(14px, 3vw, 20px);
+  }
+  .listaContainer {
+    li a {
+      text-decoration: none;
+      color: black;
+      font-size: clamp(12px, 3vw, 14px);
+    }
+    li {
+      width: 85%;
+      margin-top: 8px;
+    }
+    ion-icon {
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .secaoAtalhoContainer {
+    .listaContainer {
+      li {
+        width: 25vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .secaoAtalhoContainer {
+    .listaContainer {
+      li {
+        width: 60vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+:root {
+  $cores: (
+    cor-bleu-de-france: #6C63FF,
+    cor-saffron: #f7c663,
+    cor-shamrock-green: #29a062,
+    cor-lavender-pink: #fcb1d0,
+    cor-cinza-claro: #D8D8D8,
+    cor-paragrafo: rgb(97, 97, 97),
+  );
+
+  $titulo: (
+    fonte-titulo: "SimsLLHP",
+    size-titulo: max(20px, 2.8vw),
+    size-titulo-secundario: null,
+  );
+
+  $variaveis: map-merge($cores, $titulo);
+
+  // Crie as variáveis ​​de root a partir do mapa combinado
+  @each $variavel, $valor in $variaveis {
+    --#{$variavel}: #{$valor};
+  }
+}

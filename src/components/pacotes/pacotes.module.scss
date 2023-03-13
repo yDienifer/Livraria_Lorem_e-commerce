@@ -1,0 +1,36 @@
+@import ".././sass/mixins.module.scss";
+
+.pacotesContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: relative;
+  left: 0;
+
+  .tituloPacoteIntro {
+    @include titulo-secao;
+  }
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    float: none;
+
+    .card {
+      position: relative;
+      top: 0;
+      transition: 0.4s;
+    }
+
+    .card:hover {
+      position: relative;
+      top: -10px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .tituloPacoteIntro {
+    padding-top: 9vw;
+  }
+}
