@@ -20,7 +20,10 @@
 .card {
   @include card-resp(1.8%);
   display: flex;
+  position: relative;
+  margin-top: 10px;
 }
+
 .btns {
   display: flex;
   align-items: center;
@@ -31,7 +34,7 @@
     border: none;
     cursor: pointer;
     font-size: clamp(16px, 1vw, 32px);
-    
+    margin-bottom: 1vw;
   }
   .btnVerTodos {
     border: 2px solid rgba(122, 121, 121, 0.685);
@@ -77,6 +80,18 @@
     }
     .card {
       margin-top: 9vw;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .carrossel {
+    .elementosDoCarrossel {
+      .btns {
+        button {
+          margin-bottom: 0;
+        }
+      }
     }
   }
 }

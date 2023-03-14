@@ -10,15 +10,22 @@ function Catalogo() {
   return (
     <>
       <div className={styles.cardsContainer}>
-        <Marquee />
         <Promocoes />
       </div>
       <div className="container">
         <CarrosselProduto
-          tituloSecao="Aqui, o terror não tem fim!"
+          tituloSecao="Os livros mais vendidos do mês!"
+          produtos={LivrosTerror}
+        />
+        <CarrosselProduto
+          tituloSecao="Lançamentos imperdíveis do ano!"
           produtos={LivrosTerror}
         />
         <Anuncio />
+        <CarrosselProduto
+          tituloSecao="Aqui, o terror não tem fim!"
+          produtos={LivrosTerror}
+        />
         <CarrosselProduto
           tituloSecao="O amor está entre as páginas!"
           produtos={LivrosTerror}

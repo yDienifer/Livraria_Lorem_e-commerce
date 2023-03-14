@@ -17,26 +17,27 @@ export const CardProduto = ({
   }, []);
 
   return (
-    <div className={styles.cardProduto} data-aos="fade-up">
-      <img src={imgCard} alt={altImgCard} className={styles.imgCard} />
-      <div className={styles.infoProduto}>
-          <h1 className={styles.nomeDoProduto}>
-            {nomeDoProduto}
-          </h1>
-          <p className={styles.descricaoDoProduto}>
-            {descricaoDoProduto}
-          </p>
+    <div className={styles.cardProdutoContainer} data-aos="fade-up">
+      <div className={styles.card}>
+        <img src={imgCard} alt={altImgCard} className={styles.imgCard} />
+        <div className={styles.infoProduto}>
+          <h1 className={styles.nomeDoProduto}>{nomeDoProduto}</h1>
+          <p className={styles.descricaoDoProduto}>{descricaoDoProduto}</p>
           <p className={styles.precoPromocaoDoProduto}>
             {precoPromocaoDoProduto}
           </p>
           <p className={styles.precoOriginalDoProduto}>
             {precoOriginalDoProduto}
           </p>
-        <div className={styles.compraOuFav}>
-          <ion-icon name="cart-outline" alt="Favoritar"></ion-icon>
-          <ion-icon name="heart-outline" alt="Adicionar ao carrinho"></ion-icon>
+          <div className={styles.compraOuFav}>
+            <ion-icon name="cart-outline" alt="Favoritar"></ion-icon>
+            <ion-icon
+              name="heart-outline"
+              alt="Adicionar ao carrinho"
+            ></ion-icon>
+          </div>
         </div>
       </div>
     </div>
   );
-}
+};

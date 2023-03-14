@@ -1,7 +1,26 @@
 .secaoAtalhoContainer {
   span {
     font-size: clamp(14px, 3vw, 20px);
+    margin-bottom: 0.9rem;
+    position: relative;
+    cursor: pointer;
   }
+  span:after {
+    content: "";
+    position: absolute;
+    display: block;
+    position: absolute;
+    border-radius: 8px;
+    width: 0;
+    height: 2px;
+
+    background-color: var(--cor-medium-slate-blue);
+    transition: 0.6s;
+  }
+  span:hover:after {
+    width: 100%;
+  }
+
   .listaContainer {
     li a {
       text-decoration: none;
@@ -15,6 +34,8 @@
     ion-icon {
       vertical-align: middle;
       margin-right: 5px;
+      font-size: clamp(16px, 3vw, 22px);
+      color: var(--cor-bright-pink);
     }
   }
 }

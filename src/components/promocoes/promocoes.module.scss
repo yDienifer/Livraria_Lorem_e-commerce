@@ -2,46 +2,11 @@
 @import "../sass/_variables.module.scss";
 
 .promocoesCatalogo {
-  background-color: var(--cor-cinza-claro);
+  background-color: var(--cor-white-smoke);
   padding-bottom: 30px;
 
-  .carrossel {
-    width: 100%;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-  }
-  .carrossel::-webkit-scrollbar {
-    display: none;
-  }
-  .cardsContainer {
-    display: flex;
-    flex: none;
-  }
-  .card {
-    @include card-resp(3%);
-  }
-  .btns {
-    display: flex;
-    justify-content: right;
-    width: 100%;
-
-    button {
-      background: transparent;
-      border: none;
-      cursor: pointer;
-    }
-    ion-icon {
-      border: 1px solid white;
-      border-radius: 100%;
-      padding: 5px;
-      margin-right: 12px;
-      color: rgb(255, 255, 255);
-      font-size: 35px;
-      transition: 0.4s;
-    }
-    .btns ion-icon:hover {
-      color: rgb(255, 0, 0);
-    }
+  .carrosselPromocoes {
+    margin-top: -90px;
   }
 }
 

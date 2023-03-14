@@ -1,43 +1,23 @@
 export const ItensSidebar = [
     {
-        titulo: "Loja",
+        id: 1,
+        titulo: "Inicío",
         link: "#",
     }, {
-        titulo: "Descubra",
+        id: 2,
+        titulo: "Quem somos",
         link: "#",
     }, {
-        titulo: "Exibir Todos",
+        id: 3,
+        titulo: "Promoções",
         link: "#",
     }, {
-        titulo: "Pacotes de Expansão",
+        id: 4,
+        titulo: "Nossas filiais",
         link: "#",
     }, {
-        titulo: "Pacotes de Jogo",
-        link: "#",
-    }, {
-        titulo: "Kits",
-        link: "#",
-    }, {
-        titulo: "Conjuntos",
-        link: "#",
-    }, {
-        titulo: "Notícias e Atualizações",
-        link: "#",
-    }, {
-        titulo: "Galeria",
-        link: "#",
-    },
-    {
-        titulo: "Truques",
-        link: "#",
-    }, {
-        titulo: "Perguntas Frequentes",
-        link: "#",
-    }, {
-        titulo: "Truques e Dicas",
-        link: "#",
-    }, {
-        titulo: "Fórum",
+        id: 5,
+        titulo: "Contatos",
         link: "#",
     },
 ]

@@ -1,19 +1,27 @@
+@import "../../../../components/sass/mixins.module";
+
 .sidebarContainer {
   position: absolute;
   top: -38px;
   left: -31px;
   width: 80vw;
-  background-color: rgb(192, 189, 189);
+  background-color: var(--cor-platinum);
   padding: 60px 20px;
 
   img {
     width: 60px;
-    padding-bottom: 3vw;
+    margin-left: 3vw;
   }
   span {
     margin-left: -20px;
   }
-  li {
-    padding: 12px;
+  .atalhos {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    li {
+      padding: 12px;
+    }
   }
 }

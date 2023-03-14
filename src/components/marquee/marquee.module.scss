@@ -1,21 +1,25 @@
+@import "../sass/variables.module";
 .marquee {
   display: flex;
   justify-content: flex-start;
-  background-color: #d8d8d8;
-  padding: 20px;
+  background-color: var(--cor-white-smoke);
+  padding: 30px;
   overflow: hidden;
 
   h1 {
-    font-family: "SimsFont";
-    color: white;
+    text-transform: uppercase;
+    font-family: "Nunito Sans", sans-serif;
+    color: var(--cor-ultra-violet);
+    font-weight: bold;
+    mix-blend-mode: hard-light;
     font-size: clamp(1rem, 0.4324rem + 2.4218vw, 2.5rem);
     white-space: nowrap;
     padding: 0 6rem;
     animation: move-rt1 6000ms linear infinite;
   }
   span {
-    font-family: "SimsFont";
-    color: var(--cor-principal);
+    font-family: "Nunito Sans", sans-serif;
+    color: var(--cor-medium-slate-blue);
     animation: colors 4s infinite;
   }
   @keyframes move-rt1 {
@@ -28,13 +32,13 @@
   }
   @keyframes colors {
     0% {
-      color: var(--cor-principal);
+      color: var(--cor-bright-pink);
     }
     50% {
-      color: var(--cor-secundaria);
+      color: var(--cor-medium-slate-blue);
     }
     100% {
-      color: var(--cor-principal);
+      color: var(--cor-ultra-violet);
     }
   }
 }

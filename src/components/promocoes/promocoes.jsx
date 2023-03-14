@@ -7,6 +7,8 @@ import "aos/dist/aos.css";
 
 import { useRef } from "react";
 import { promocoes } from "./promocoes.js";
+import { CarrosselProduto } from "../carrossel/carrossel-produto/carrossel-produto.jsx";
+import Marquee from "../marquee/marquee.jsx";
 
 export const Promocoes = () => {
   const Carrossel = useRef(null);
@@ -24,31 +26,10 @@ export const Promocoes = () => {
 
   return (
     <div className={styles.promocoesCatalogo}>
-      <div className="container">
-        <div className={styles.btns}>
-          <button onClick={btnVoltar}>
-            <ion-icon name="chevron-back-outline"></ion-icon>
-          </button>
-          <button onClick={btnAvancar}>
-            <ion-icon name="chevron-forward-outline"></ion-icon>
-          </button>
-        </div>
-        <div className={styles.carrossel} ref={Carrossel}>
-          <div className={styles.cardsContainer}>
-            {promocoes.map((produto) => (
-              <div className={styles.card}>
-                <CardProduto
-                  key={produto.id}
-                  imgCard={produto.imgCard}
-                  altImgCard={produto.altImgCard}
-                  nomeDoProduto={produto.nomeDoProduto}
-                  descricaoDoProduto={produto.descricaoDoProduto}
-                  precoPromocaoDoProduto={produto.precoPromocaoDoProduto}
-                  precoOriginalDoProduto={produto.precoOriginalDoProduto}
-                />
-              </div>
-            ))}
-          </div>
+      <Marquee />
+      <div className={styles.carrosselPromocoes}>
+        <div className="container">
+          <CarrosselProduto produtos={promocoes} />
         </div>
       </div>
     </div>

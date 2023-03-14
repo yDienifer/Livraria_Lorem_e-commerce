@@ -1,10 +1,10 @@
 :root {
   $cores: (
-    cor-bleu-de-france: #6C63FF,
-    cor-saffron: #f7c663,
-    cor-shamrock-green: #29a062,
-    cor-lavender-pink: #fcb1d0,
-    cor-cinza-claro: #D8D8D8,
+    cor-medium-slate-blue: #6C63FF,
+    cor-bright-pink: #FF6584,
+    cor-platinum: #E6E6E6,
+    cor-white-smoke: #F2F2F2,
+    cor-ultra-violet: #5C5983,
     cor-paragrafo: rgb(97, 97, 97),
   );
 
@@ -16,7 +16,6 @@
 
   $variaveis: map-merge($cores, $titulo);
 
-  // Crie as variáveis ​​de root a partir do mapa combinado
   @each $variavel, $valor in $variaveis {
     --#{$variavel}: #{$valor};
   }

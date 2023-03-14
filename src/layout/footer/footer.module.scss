@@ -35,12 +35,11 @@ footer {
       flex-wrap: wrap;
       justify-content: flex-end;
       align-items: flex-end;
-      max-width: 768px;
+      width: 100%;
       margin: 0 auto;
       @include centralização-vertical;
       padding: 10px;
       background-color: #c9c9c9;
-      width: 100%;
 
       ul {
         width: 100%;
@@ -53,7 +52,7 @@ footer {
         transition: all 0.6s;
       }
       li a:hover {
-        color: var(--cores--cor-bleu-de-france);
+        color: var(--cores--cor-medium-slate-blue);
       }
     }
   }
@@ -83,7 +82,7 @@ footer {
   }
   .direitosAutorais {
     position: relative;
-    background-color: var(--cores--cor-saffron);
+    background-color: var(--);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -161,14 +160,13 @@ footer {
 @media (max-width: 425px) {
   footer {
     margin-top: 39vw;
-    background: url("../../../public/static/img/footer/icon_grid.svg");
-    
+
     .linha1 {
       position: relative;
       left: 0;
       .secoesAtalhos {
         flex-direction: column;
-     
+
         .secaoSobre {
           margin: 30px 0;
         }
