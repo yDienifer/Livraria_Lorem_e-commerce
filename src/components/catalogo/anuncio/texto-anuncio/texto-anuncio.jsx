@@ -12,7 +12,6 @@ export const TextoAnuncio = ({
   descricaoJogoAnuncio,
   btnTexto,
 }) => {
-
   useEffect(() => {
     AOS.init({ duration: 1940 });
   }, []);

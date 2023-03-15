@@ -12,7 +12,9 @@ export const Pesquisa = ({ valorDoFiltro, setValorDoFiltro }) => {
         value={valorDaBusca}
         placeholder="Pesquise um livro..."
       />
-      <button><ion-icon name="search-outline"></ion-icon></button>
+      <button>
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
     </div>
   );
 };

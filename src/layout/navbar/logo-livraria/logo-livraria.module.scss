@@ -1,8 +1,10 @@
 .logo,
 .logoSemLink {
+
   img, .imgLogoSemLink {
     width: clamp(55px, 10vw, 65px);
   }
+  
   span {
     padding: 0;
     margin: 0 0 0 5px;
@@ -17,6 +19,7 @@
   .logo {
     float: right;
     margin-left: 15px;
+    
     span {
       display: none;
     }

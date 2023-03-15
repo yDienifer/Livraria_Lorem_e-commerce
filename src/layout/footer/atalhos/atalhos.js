@@ -2,31 +2,26 @@ export const atalhos = [
   {
     id: 1,
     linkAtalho: "#",
-    nomeAtalho: "Principal",
+    nomeAtalho: "Categorias de livros",
   },
   {
     id: 2,
     linkAtalho: "#",
-    nomeAtalho: "Loja",
+    nomeAtalho: "Promoções e descontos",
   },
   {
     id: 3,
     linkAtalho: "#",
-    nomeAtalho: "Sobre",
+    nomeAtalho: "Central de Ajuda",
   },
   {
     id: 4,
     linkAtalho: "#",
-    nomeAtalho: "EA app para Windows",
+    nomeAtalho: "Termos de uso",
   },
   {
     id: 5,
     linkAtalho: "#",
-    nomeAtalho: "Origin para Mac",
-  },
-  {
-    id: 6,
-    linkAtalho: "#",
-    nomeAtalho: "Biblioteca de Jogos",
+    nomeAtalho: "Formas de pagamento",
   },
 ];

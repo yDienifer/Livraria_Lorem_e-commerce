@@ -1,6 +1,6 @@
 import styles from "./footer.module.scss";
 
-import IconRedesSociais from ".//redes-sociais/icon-redes-sociais/icon-redes-sociais.jsx";
+import { IconRedesSociais } from ".//redes-sociais/icon-redes-sociais/icon-redes-sociais.jsx";
 import { Icons } from "./menus/menus";
 import { Novidades } from "./novidades/novidades";
 import { atalhos } from "./atalhos/atalhos.js";
@@ -43,9 +43,6 @@ function Footer() {
       </div>
       <div className={styles.direitosAutorais}>
         <p>Copyright © 2023 Livraria Lorem. Todos os direitos reservados.</p>
-        <a href="#">
-          <img src="static/img/logos/seal.svg" alt="logo-TRUSte" />
-        </a>
       </div>
     </footer>
   );

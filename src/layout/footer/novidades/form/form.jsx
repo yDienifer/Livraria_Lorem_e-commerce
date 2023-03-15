@@ -7,11 +7,7 @@ export const FormNovidades = () => {
       method="post"
       className={styles.formContainer}
     >
-      <input
-        type="email"
-        placeholder="Adicione o seu e-mail...."
-        required
-      />
+      <input type="email" placeholder="Adicione o seu e-mail...." required />
       <input type="submit" value="Enviar" />
     </form>
   );

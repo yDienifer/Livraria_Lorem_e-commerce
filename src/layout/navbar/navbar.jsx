@@ -1,15 +1,14 @@
 import styles from "./navbar.module.scss";
 
+import Hamburguer from "./nav-mobile/menu-hamburguer/menu-hamburguer";
+import { LogoLivraria } from "./logo-livraria/logo-livraria";
+import { Pesquisa } from "./pesquisa/pesquisa";
+import { BtnsConta } from "./conta/btns-conta";
+
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import BtnsConta from "./conta/btns-conta";
-
-import { Pesquisa } from "./pesquisa/pesquisa";
-
 import { NossasFiliais, Contatos } from "./menu/menu";
-import Hamburguer from "./nav-mobile/menu-hamburguer/menu-hamburguer";
-import { LogoLivraria } from "./logo-livraria/logo-livraria";
 
 export default function Navbar({ valorDoFiltro, setValorDoFiltro }) {
   const [mostrarDropdownFiliais, setDropdownFiliais] = useState(false);

@@ -11,11 +11,11 @@
     font-size: clamp(18px, 3vw, 32px);
     width: 42vw;
   }
-}
-
-.descricaoPacote {
-  @include descricao-anuncio;
-  width: 100%;
+  
+  .descricaoPacote {
+    @include descricao-anuncio;
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {

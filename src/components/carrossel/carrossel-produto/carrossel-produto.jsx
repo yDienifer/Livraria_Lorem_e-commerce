@@ -1,17 +1,12 @@
 import React, { useEffect, useRef } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import { CardProduto } from "../../card-produto/card-produto";
 import styles from "./carrossel-produto.module.scss";
 
-export const CarrosselProduto = ({
-  tituloSecao,
-  srcGif,
-  widthGif,
-  heightGif,
-  classNameGif,
-  produtos,
-}) => {
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+export const CarrosselProduto = ({ tituloSecao, produtos }) => {
   const Carrossel = useRef(null);
 
   const btnVoltar = (e) => {

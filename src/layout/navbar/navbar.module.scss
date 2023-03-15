@@ -55,6 +55,7 @@ header {
       cursor: pointer;
       margin-left: 5px;
     }
+
     .menu {
       display: flex;
       justify-content: center;
@@ -63,12 +64,14 @@ header {
       padding: 10px;
       margin: 0;
     }
+
     .menu li,
     span {
       font-size: 16px;
       color: black;
       padding: 0 2rem;
     }
+
     .dropdown {
       position: absolute;
       top: 124px;

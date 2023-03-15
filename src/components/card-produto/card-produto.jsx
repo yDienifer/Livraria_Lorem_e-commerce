@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-
 import styles from "./card-produto.module.scss";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 

@@ -9,18 +9,18 @@
   text-align: center;
   border-radius: 3px;
   padding: 16px;
-  background-color: rgb(221, 221, 221);
+  background-color: var(--cor-platinum);
   text-transform: uppercase;
   font-size: clamp(16px, 1vw, 20px);
   transition: all 0.6s;
   cursor: pointer;
-  box-shadow: 0px 2.2px 1px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 2.2px 1px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0px 2.2px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2.2px 1px #0000001a;
+  -moz-box-shadow: 0px 2.2px 1px #0000001a;
+  -webkit-box-shadow: 0px 2.2px 1px #0000001a;
 }
 .btnBaixar:hover {
   position: relative;
   top: -2px;
   background-color: var(--cor-medium-slate-blue);
-  color: hsl(0, 0%, 100%);
+  color: #ffffff;
 }

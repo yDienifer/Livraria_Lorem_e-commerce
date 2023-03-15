@@ -2,35 +2,23 @@
 
 .textoAnuncioContainer { //centraliza isso com o banner
   display: block;
-  padding: 30px;
+  padding: 30px 30px 20px 30px;
   width: 90%;
   max-width: 570px;
+  height: 100%;
   @include background-glass(#ffffff57, #ffffff2e);
   border-radius: 10px;
 
-  img {
-    width: 50%;
-    max-width: 240px;
-  }
   .descricaoJogoAnuncio {
     @include descricao-anuncio;
   }
 }
 
-@media (max-width: 320px) {
-  .textoAnuncioContainer {
-    background-color: none;
-  }
-  .textoAnuncioContainer {
-    padding: 30px;
-    width: 570px;
-    @include background-glass(none, none);
-    border-radius: 10px;
-  }
-}
-
 @media (max-width: 768px) {
   .textoAnuncioContainer {
-    display: none;
+    padding: 0;
+    @include background-glass(none, none);
+    border-radius: 0;
+    margin-top: 6vw;
   }
 }

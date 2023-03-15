@@ -1,4 +1,5 @@
 @import "../../components/sass/mixins.module";
+@import "../../components/sass/variables.module";
 
 footer {
   position: relative;
@@ -20,12 +21,14 @@ footer {
       max-width: 768px;
       margin: -15px 0 0 45px;
     }
+
     .secoesAtalhos {
       display: flex;
       margin-left: 15px;
       z-index: 2;
     }
   }
+
   .atalhosContainer {
     position: relative;
     margin-top: 3rem;
@@ -41,9 +44,6 @@ footer {
       padding: 10px;
       background-color: #c9c9c9;
 
-      ul {
-        width: 100%;
-      }
       li a {
         font-size: calc(0.6em + 0.5vw);
         text-decoration: none;
@@ -51,6 +51,7 @@ footer {
         padding: 10px;
         transition: all 0.6s;
       }
+
       li a:hover {
         color: var(--cores--cor-medium-slate-blue);
       }
@@ -74,7 +75,7 @@ footer {
     border-top: 1px solid rgba(0, 0, 0, 0.452);
 
     p {
-      color: white;
+      color: var(--cor-platinum);
       margin: 0;
       padding: 5px 0 10px 0;
       font-size: max(0.8rem, 1.3vw);
@@ -82,26 +83,19 @@ footer {
   }
   .direitosAutorais {
     position: relative;
-    background-color: var(--);
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
+    
     p {
       font-size: max(0.7rem, 1.3vw);
-      color: white;
+      color: var(--cor-paragrafo);
       margin: 0;
-      width: 100%;
+
       z-index: 1;
-    }
-    img {
-      cursor: pointer;
-      width: 100%;
-      max-width: 200px;
-      float: right;
-      margin-left: auto;
     }
   }
 }

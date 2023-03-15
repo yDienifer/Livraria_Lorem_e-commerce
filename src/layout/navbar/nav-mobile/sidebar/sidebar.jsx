@@ -2,7 +2,7 @@ import { ItensSidebar } from "./sidebar";
 
 import styles from "./sidebar.module.scss";
 
-const Sidebar = () => {
+export const Sidebar = () => {
   return (
     <div className={styles.sidebarContainer}>
       <div className={styles.conta}>
@@ -19,5 +19,3 @@ const Sidebar = () => {
     </div>
   );
 };
-
-export default Sidebar;

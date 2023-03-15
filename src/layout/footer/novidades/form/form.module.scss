@@ -8,9 +8,9 @@
   align-items: flex-start;
 
   input:nth-of-type(1) {
-    border: 2px solid rgb(212, 212, 212);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    // Adicionar e-mail...
+    border: 2px solid #d4d4d4;
+    box-shadow: #00000029 0px 10px 36px 0px, #0000000f 0px 0px 0px 1px;
     border-radius: 5px;
     padding: 19px;
     transition: all 0.6s;
@@ -25,25 +25,37 @@
     border-radius: 10px;
     border: 1px solid #ffffff2e;
   }
+
   input::-webkit-input-placeholder {
+    // Texto do placeholder...
     font-size: calc(0.6em + 0.5vw);
-    color: white;
+    color: #ffffff;
     filter: drop-shadow(0px 2.2px 1px #0000001a);
   }
+
   input:nth-of-type(1):focus {
+    // focus: elemento clicado para permanecer em foco
     box-shadow: var(--cor-ultra-violet) 0px 7px 29px 0px;
     border: 2px solid var(--cor-ultra-violet);
   }
+
   input:focus::-webkit-input-placeholder {
+    // seleciona o placeholder do elemento de entrada (quando em foco).
     color: transparent;
   }
+
   input:nth-of-type(1):focus:-moz-placeholder {
+    // seleciona o primeiro elemento de entrada do form (com foco).
     color: transparent;
   }
+
   input:nth-of-type(1):focus::-moz-placeholder {
     color: transparent;
   }
+
   input:nth-of-type(1):focus:-ms-input-placeholder {
+    /* Seleciona o primeiro elemento de entrada do formulário (com foco), somente 
+    no Microsoft Internet Explorer. */
     color: transparent;
   }
 

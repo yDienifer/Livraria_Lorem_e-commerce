@@ -9,7 +9,7 @@ export const NossasFiliais = [
     }, {
         titulo: "Porto Alegre",
         link: "#",
-    }, 
+    },
 ]
 
 export const Contatos = [

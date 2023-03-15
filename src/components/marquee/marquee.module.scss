@@ -1,4 +1,5 @@
 @import "../sass/variables.module";
+
 .marquee {
   display: flex;
   justify-content: flex-start;
@@ -17,11 +18,13 @@
     padding: 0 6rem;
     animation: move-rt1 6000ms linear infinite;
   }
+
   span {
     font-family: "Nunito Sans", sans-serif;
     color: var(--cor-medium-slate-blue);
     animation: colors 4s infinite;
   }
+
   @keyframes move-rt1 {
     0% {
       transform: translateX(0);

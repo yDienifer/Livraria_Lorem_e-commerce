@@ -3,25 +3,17 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-}
 
-.textoBanner {
-  display: flex;
-  align-items: baseline;
-}
+  .imgBanner {
+    margin-right: 90px;
+    width: 30%;
+    vertical-align: middle;
+  }
 
-.imgBanner {
-  margin-right: 90px;
-  width: 30%;
-  vertical-align: middle;
-}
-
-.imgLogo {
-  margin-top: -55px;
-  filter: drop-shadow(2px 2px 0.4px rgb(255, 255, 255));
-  float: none;
-  width: 100%;
-  max-width: 339px;
+  .textoBanner {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 @media (max-width: 768px) {
@@ -32,10 +24,11 @@
     width: 100vw;
     margin: 0 auto;
     padding: 0;
-  }
-  .imgBanner {
-    margin-right: 40px;
-    width: 40%;
+
+    .imgBanner {
+      margin-right: 40px;
+      width: 40%;
+    }
   }
 }
 
@@ -44,7 +37,7 @@
     flex-direction: column;
     margin-top: 45px;
 
-    img {
+    .imgBanner {
       width: 100vw;
       margin: 0;
     }

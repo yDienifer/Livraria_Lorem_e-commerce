@@ -1,4 +1,5 @@
 import styles from "./banner-slider.module.scss";
+
 import { TextoBanner } from "./texto-banner/texto-banner";
 
 import { Swiper, SwiperSlide } from "swiper/react";

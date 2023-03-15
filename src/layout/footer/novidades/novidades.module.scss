@@ -21,12 +21,15 @@
     font-size: calc(0.7em + 1vw);
     text-align: left;
   }
+
   span {
     font-family: "SimsFont", sans-serif;
     color: var(--cores--cor-medium-slate-blue);
   }
+
   .teste {
     width: 100%;
+
     input {
       width: 100%;
     }

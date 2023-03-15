@@ -17,6 +17,7 @@
 
   @media (max-width: 425px) {
     margin-top: 3.2rem;
+    margin-bottom: 1.7rem;
   }
 }
 
@@ -31,7 +32,7 @@
 
 @mixin descricao-anuncio {
   margin: 1.1rem 0  2rem 0;
-  font-size: clamp(1rem, 0.3rem + 1.49vw, 1rem);
+  font-size: clamp(14px, 3vw, 18px);
   color: #3b3b3b;
   font-weight: 80px;
   display: -webkit-box;
@@ -43,7 +44,7 @@
 
 @mixin descricao-anuncio-mobile {
   margin: 2rem 2rem 2rem 0;
-  font-size: clamp(14px, 3vw, 16px);
+  font-size: clamp(14px, 1vw, 16px);
   width: 100%;
   text-align: left;
   color: #3b3b3b;
@@ -63,6 +64,12 @@
   border-radius: 10px;
   border: 1px solid $borda-cor;
   border-radius: 25px;
+
+  @media (max-width: 768px) {
+    box-shadow: none;
+    background: none;
+    border: none;
+  }
 }
 
 @mixin centralização-vertical() {
