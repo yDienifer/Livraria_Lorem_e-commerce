@@ -1,4 +1,4 @@
-@import ".././sass/mixins.module.scss";
+@import "../sass/mixins.module";
 
 .pacotesContainer {
   width: 100%;
@@ -9,7 +9,13 @@
 
   .tituloPacoteIntro {
     @include titulo-secao;
+    margin-bottom: 3vw;
+
+    @media (max-width: 320px) {
+      margin-bottom: 1vw;
+    }
   }
+
   .cardsContainer {
     display: flex;
     flex-wrap: wrap;
@@ -26,11 +32,5 @@
       position: relative;
       top: -10px;
     }
-  }
-}
-
-@media (max-width: 320px) {
-  .tituloPacoteIntro {
-    padding-top: 9vw;
   }
 }

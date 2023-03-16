@@ -8,7 +8,6 @@ import styles from "./pacotes.module.scss";
 import { TiposDePacotes } from "./pacotes.js";
 
 export default function Pacotes() {
-    
   useEffect(() => {
     AOS.init({ duration: 1950 });
   }, []);
@@ -17,8 +16,7 @@ export default function Pacotes() {
     <div className="container">
       <div className={styles.pacotesContainer}>
         <h1 className={styles.tituloPacoteIntro} data-aos="fade-down">
-          {" "}
-          Compre por tipo de pacote!{" "}
+          Pacotes de Livros Imperdíveis para os Amantes da Leitura!
         </h1>
         <div className={styles.cardsContainer}>
           {TiposDePacotes.map((pacote) => (
