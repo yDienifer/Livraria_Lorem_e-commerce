@@ -51,7 +51,7 @@ export const CarrosselProduto = ({ tituloSecao, produtos }) => {
                   nomeDoProduto={produto.nomeDoProduto}
                   descricaoDoProduto={produto.descricaoDoProduto}
                   precoPromocaoDoProduto={produto.precoPromocaoDoProduto}
-                  precoOriginalDoProduto={produto.precoPromocaoDoProduto}
+                  precoOriginalDoProduto={produto.precoOriginalDoProduto}
                 />
               </div>
             ))}

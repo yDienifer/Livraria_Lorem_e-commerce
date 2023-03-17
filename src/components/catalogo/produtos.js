@@ -6,8 +6,7 @@ export const LivrosTerror = [
     nomeDoProduto: "Deserunt tempor",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 55,99",
   },
   {
     id: 2,
@@ -16,8 +15,7 @@ export const LivrosTerror = [
     nomeDoProduto: "Laboris ipsum",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 49,50",
   },
   {
     id: 3,
@@ -26,8 +24,7 @@ export const LivrosTerror = [
     nomeDoProduto: "Lorem ipsum",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 46,42",
   },
   {
     id: 4,
@@ -36,48 +33,45 @@ export const LivrosTerror = [
     nomeDoProduto: "Occafcat fugit",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 55,00",
   },
   {
-    id: 4,
+    id: 5,
     imgCard: "static/img/products/Magna_aliqua.png",
     altImgCard: "Magna aliqua",
     nomeDoProduto: "Magna aliqua",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 49,50",
   },
   {
-    id: 5,
+    id: 6,
     imgCard: "static/img/products/The_dolor_veniam.png",
     altImgCard: "The dolor veniam",
     nomeDoProduto: "The dolor veniam",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$71,91",
+    precoOriginalDoProduto: "R$ 79,90",
   },
   {
-    id: 6,
+    id: 7,
     imgCard: "static/img/products/Eiusmod_lorem.png",
     altImgCard: "Eiusmod lorem",
     nomeDoProduto: "Eiusmod lorem",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 50,00",
   },
   {
-    id: 7,
+    id: 8,
     imgCard: "static/img/products/Auto_irure_lorem.png",
     altImgCard: "Auto irure lorem",
     nomeDoProduto: "Auto irure lorem",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 40,50",
+    precoOriginalDoProduto: "R$ 45,00",
   },
 ];
 
@@ -89,8 +83,8 @@ export const LivrosRomance = [
     nomeDoProduto: "Laboris nisi",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 35,90",
+    precoOriginalDoProduto: "R$ 39,90",
   },
   {
     id: 2,
@@ -99,8 +93,8 @@ export const LivrosRomance = [
     nomeDoProduto: "Animid id laborum",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 36,00",
+    precoOriginalDoProduto: "R$ 40,00",
   },
   {
     id: 3,
@@ -110,7 +104,6 @@ export const LivrosRomance = [
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
   },
   {
     id: 4,
@@ -119,8 +112,7 @@ export const LivrosRomance = [
     nomeDoProduto: "Sit amet lorem",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 45,90",
   },
   {
     id: 4,
@@ -129,8 +121,7 @@ export const LivrosRomance = [
     nomeDoProduto: "Lorem ipsum",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 46,42",
   },
   {
     id: 5,
@@ -139,8 +130,7 @@ export const LivrosRomance = [
     nomeDoProduto: "Commodo consequat",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 35,00",
   },
   {
     id: 6,
@@ -149,8 +139,7 @@ export const LivrosRomance = [
     nomeDoProduto: "Deserunt officia",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 44,50",
   },
   {
     id: 7,
@@ -160,7 +149,6 @@ export const LivrosRomance = [
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
   },
 ];
 
@@ -182,8 +170,7 @@ export const LivrosSuspense = [
     nomeDoProduto: "Incididunt tempor",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 69,00",
   },
   {
     id: 3,
@@ -192,8 +179,7 @@ export const LivrosSuspense = [
     nomeDoProduto: "Ipsum sunt",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 55,50",
   },
   {
     id: 4,
@@ -202,8 +188,7 @@ export const LivrosSuspense = [
     nomeDoProduto: "Minim ipsum",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 35,99",
   },
   {
     id: 5,
@@ -212,8 +197,7 @@ export const LivrosSuspense = [
     nomeDoProduto: "Fugiat",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 69,90",
   },
   {
     id: 6,
@@ -222,8 +206,7 @@ export const LivrosSuspense = [
     nomeDoProduto: "Tempor",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 69,90",
   },
 
   {
@@ -234,7 +217,6 @@ export const LivrosSuspense = [
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
   },
   {
     id: 8,
@@ -244,7 +226,6 @@ export const LivrosSuspense = [
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
   },
 ];
 
@@ -256,8 +237,7 @@ export const LivrosMaisVendidos = [
     nomeDoProduto: "Occafcat fugit",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 55,00",
   },
   {
     id: 2,
@@ -266,8 +246,7 @@ export const LivrosMaisVendidos = [
     nomeDoProduto: "Magna aliqua",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 49,50",
   },
   {
     id: 3,
@@ -277,7 +256,6 @@ export const LivrosMaisVendidos = [
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
   },
   {
     id: 4,
@@ -286,8 +264,7 @@ export const LivrosMaisVendidos = [
     nomeDoProduto: "Minim ipsum",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 35,99",
   },
   {
     id: 5,
@@ -296,8 +273,7 @@ export const LivrosMaisVendidos = [
     nomeDoProduto: "Lorem ipsum",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 46,42",
   },
   {
     id: 6,
@@ -306,8 +282,7 @@ export const LivrosMaisVendidos = [
     nomeDoProduto: "Fugiat",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 69,90",
   },
 
   {
@@ -317,8 +292,7 @@ export const LivrosMaisVendidos = [
     nomeDoProduto: "Tempor",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 69,90",
   },
   {
     id: 8,
@@ -327,8 +301,8 @@ export const LivrosMaisVendidos = [
     nomeDoProduto: "Animad id laborum",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 36,00",
+    precoOriginalDoProduto: "R$ 40,00",
   },
 ];
 
@@ -340,8 +314,7 @@ export const Lançamentos = [
     nomeDoProduto: "The amet lorem",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 46,42",
   },
   {
     id: 2,
@@ -360,8 +333,7 @@ export const Lançamentos = [
     nomeDoProduto: "Euismod lorem",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 35,00",
   },
   {
     id: 4,
@@ -370,8 +342,7 @@ export const Lançamentos = [
     nomeDoProduto: "Commodo consequat",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 35,00",
   },
   {
     id: 5,
@@ -381,7 +352,6 @@ export const Lançamentos = [
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
   },
   {
     id: 6,
@@ -390,8 +360,7 @@ export const Lançamentos = [
     nomeDoProduto: "Sit amet lorem",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 45,90",
   },
 
   {
@@ -401,8 +370,7 @@ export const Lançamentos = [
     nomeDoProduto: "Laboris ipsum",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 49,50",
   },
   {
     id: 8,
@@ -411,7 +379,6 @@ export const Lançamentos = [
     nomeDoProduto: "Incididunt tempor",
     descricaoDoProduto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    precoPromocaoDoProduto: "R$ 54,00",
-    precoOriginalDoProduto: "R$ 60,00",
+    precoPromocaoDoProduto: "R$ 69,00",
   },
 ];

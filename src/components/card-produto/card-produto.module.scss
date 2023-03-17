@@ -1,6 +1,14 @@
 @import "../sass/_mixins.module.scss";
 @import "../sass/variables.module";
 
+.cardProdutoContainer .card.no-promo-price {
+  width: 20vw;
+}
+
+.semPromocao {
+  height: 100%; /* ou a altura desejada */
+}
+
 .cardProdutoContainer {
   .card {
     display: flex;
@@ -23,7 +31,7 @@
   .card:hover {
     border: 1px solid rgb(170, 170, 170);
     position: relative;
-    top: -10px;
+    top: -5px;
   }
 
   .nomeDoProduto {
@@ -88,7 +96,8 @@
     margin-top: -20px;
   }
 
-  .imgCard { // Imagens desiguais
+  .imgCard {
+    // Imagens desiguais
     width: 80%;
     margin-top: -18px;
     border-radius: 5px;
@@ -96,6 +105,9 @@
   }
 
   .compraOuFav {
+    position: absolute;
+    top: 88%;
+    left: 50%;
     display: flex;
     justify-content: center;
     font-size: max(12px, 1.6rem);

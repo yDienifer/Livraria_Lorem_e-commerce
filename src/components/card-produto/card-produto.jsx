@@ -15,12 +15,12 @@ export const CardProduto = ({
   useEffect(() => {
     AOS.init({ duration: 1950 });
   }, []);
-
+  
   return (
     <div className={styles.cardProdutoContainer} data-aos="fade-up">
       <div className={styles.card}>
         <img src={imgCard} alt={altImgCard} className={styles.imgCard} />
-        <div className={styles.infoProduto}>
+        <div className={`${styles.infoProduto} ${precoOriginalDoProduto ? "" : styles.semPromocao}`}>
           <h1 className={styles.nomeDoProduto}>{nomeDoProduto}</h1>
           <p className={styles.descricaoDoProduto}>{descricaoDoProduto}</p>
           <p className={styles.precoPromocaoDoProduto}>
