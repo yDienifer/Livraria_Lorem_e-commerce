@@ -15,6 +15,15 @@
 - [x] Efeito ao rolar a tela
 - [x] E-books em carrossel
 - [ ] Menu funcional de conta, carrinho e compra
+- [ ] Barra de pesquisa funcional
+
+&nbsp;
+
+## Lista de sistemas operacionais compatíveis
+- [x] Google Chrome
+- [x] Firefox
+- [x] Opera
+- [ ] Microsoft Edge (Será testado em breve]
 
 &nbsp;
 
