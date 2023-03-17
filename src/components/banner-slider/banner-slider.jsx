@@ -11,7 +11,7 @@ import "swiper/css/scrollbar";
 
 export default function BannerSlider() {
   return (
-    <div className={styles.banner}>
+    <>
       <Swiper
         modules={[Navigation, Autoplay]}
         slidesPerView={1}
@@ -67,6 +67,6 @@ export default function BannerSlider() {
           />
         </SwiperSlide>
       </Swiper>
-    </div>
+    </>
   );
 }
