@@ -1,1 +1,3 @@
-# Em construção
+<h1 align="center">Livraria Lorem | E-commerce</h1>
+### ReadMe em construção...
+
