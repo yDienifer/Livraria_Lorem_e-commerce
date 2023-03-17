@@ -19,7 +19,7 @@
 
 &nbsp;
 
-## Lista de sistemas operacionais compatíveis
+## Lista de Browsers compatíveis
 - [x] Google Chrome
 - [x] Firefox
 - [x] Opera
