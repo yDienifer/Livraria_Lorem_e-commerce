@@ -23,7 +23,7 @@
 - [x] Google Chrome
 - [x] Firefox
 - [x] Opera
-- [ ] Microsoft Edge (Será testado em breve]
+- [ ] Microsoft Edge (Será testado em breve)
 
 &nbsp;
 
