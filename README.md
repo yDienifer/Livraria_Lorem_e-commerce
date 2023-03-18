@@ -19,10 +19,10 @@
 
 - [x] Banner "interativo"
 - [x] Responsividade
-- [x] Efeito ao rolar a tela
+- [x] Scroll reveal
 - [x] E-books em carrossel
 - [ ] Menu funcional de conta, carrinho e compra
-- [ ] Barra de pesquisa funcional
+- [ ] Barra de pesquisa eficiente
 
 &nbsp;
 
@@ -40,4 +40,8 @@
 * Passo 3: Inicie o servidor local: `npm start`
 * Divirta-se! :D
 
-[⬆ Voltar ao topo](#livraria-lorem)<br>
+&nbsp;
+
+<div align="center">
+  <a href="#livraria-lorem">⬆ Voltar ao topo</a><br>
+</div>
