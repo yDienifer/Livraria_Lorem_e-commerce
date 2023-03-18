@@ -8,6 +8,14 @@
 
 &nbsp;
 
+<img src="https://user-images.githubusercontent.com/108842368/226028302-c24094cb-fe82-49bf-b187-11011e684b01.gif" width="300px" min-width="300px" max-width="500px" align="right" alt="Logo Livraria Lorem">
+
+&nbsp;
+
+## Preview (Pelo navegador Google Chrome) 
+
+&nbsp;
+
 ## Metas do projeto
 
 - [x] Banner "interativo"
