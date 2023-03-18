@@ -8,11 +8,10 @@
 
 &nbsp;
 
-<img src="https://user-images.githubusercontent.com/108842368/226028302-c24094cb-fe82-49bf-b187-11011e684b01.gif" width="300px" min-width="300px" max-width="500px" align="right" alt="Logo Livraria Lorem">
-
-&nbsp;
-
-## Preview (Pelo navegador Google Chrome) 
+## Preview
+<div style="text-align:center;">
+  <img src="https://user-images.githubusercontent.com/108842368/226077006-186bd84b-d4d8-4549-aea2-920b5f1640dc.gif" width="700px" alt="Preview">
+</div>
 
 &nbsp;
 
@@ -29,9 +28,9 @@
 
 ## Lista de Browsers compatíveis
 - [x] Google Chrome
-- [x] Firefox
+- [x] Firefox (Alterações em breve)
 - [x] Opera
-- [ ] Microsoft Edge (Será testado em breve)
+- [ ] Microsoft Edge
 
 &nbsp;
 
