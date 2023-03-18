@@ -21,8 +21,7 @@
 - [x] Responsividade
 - [x] Scroll reveal
 - [x] E-books em carrossel
-- [ ] Menu funcional de conta, carrinho e compra
-- [ ] Barra de pesquisa eficiente
+- [ ] Menu interativo de conta, carrinho e compra
 
 &nbsp;
 
