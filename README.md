@@ -40,4 +40,4 @@
 * Passo 3: Inicie o servidor local: `npm start`
 * Divirta-se! :D
 
-[⬆ Voltar ao topo](#Livraria Lorem)<br>
+[⬆ Voltar ao topo](#livraria-lorem)<br>
