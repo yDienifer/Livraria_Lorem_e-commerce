@@ -6,7 +6,7 @@
 }
 
 .semPromocao {
-  height: 100%; /* ou a altura desejada */
+  height: 100%;
 }
 
 .cardEbookContainer {
@@ -27,6 +27,13 @@
     top: 0;
     background-color: #fcfcfc;
     transition: all 0.4s;
+
+    .imgCard {
+      width: 80%;
+      margin-top: -18px;
+      border-radius: 5px;
+      @include sombra;
+    }
   }
 
   .card:hover {
@@ -35,96 +42,92 @@
     top: -5px;
   }
 
-  .nomeDoEbook {
-    font-family: "Nunito Sans", sans-serif;
-    font-size: max(14px, 1.54vw);
-    width: 100%;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    padding-top: 10px;
-    letter-spacing: 0.3px;
-  }
-
-  .categoriaDoEbook {
-    color: var(--cor-ultra-violet);
-    font-size: 14px;
-    margin-top: -5px;
-  }
-
-  .nomeDoEbook,
-  .avaliacaoDoEbook,
-  .descricaoDoEbook {
-    margin-top: 2px;
-  }
-
   .infoEbook {
     padding: 15px;
-  }
-
-  .infoEbook,
-  .nomeDoEbook,
-  .descricaoDoEbook {
     display: flex;
     flex-direction: column;
-  }
-
-  .descricaoDoEbook {
-    font-size: 0.9rem;
-    color: var(--cor-paragrafo);
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    margin: 10px 0;
-  }
-
-  .precoPromocaoDoEbook,
-  .precoOriginalDoEbook {
-    font-family: "Nunito Sans", sans-serif;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .precoPromocaoDoEbook {
-    font-size: max(14px, 1.7vw);
-    color: var(--cor-bright-pink);
-    font-weight: bold;
     width: 100%;
-    padding-top: 0.3rem;
-  }
 
-  .precoOriginalDoEbook {
-    color: rgba(201, 185, 185, 0.671);
-    text-decoration: line-through;
-    font-size: max(12px, 1vw);
-    margin-top: -9px;
-  }
-
-  .imgCard {
-    // Imagens desiguais
-    width: 80%;
-    margin-top: -18px;
-    border-radius: 5px;
-    @include sombra;
-  }
-
-  .compraOuFav {
-    position: absolute;
-    top: 89%;
-    left: 50%;
-    display: flex;
-    justify-content: center;
-    font-size: max(12px, 1.6rem);
-
-    ion-icon {
-      font-size: clamp(18px, 2.5vw, 30px);
-      margin: 1vw;
-      cursor: pointer;
+    .categoriaDoEbook {
+      font-size: clamp(10px, 3vw, 14px);
+      position: relative;
+      top: -8px;
       color: var(--cor-ultra-violet);
+    }
+
+    .nomeDoEbook {
+      font-family: "Nunito Sans", sans-serif;
+      font-size: max(14px, 1.54vw);
+      width: 95%;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      padding-top: 10px;
+      letter-spacing: 0.3px;
+    }
+
+    .nomeDoEbook,
+    .avaliacaoDoEbook,
+    .descricaoDoEbook {
+      margin-top: 2px;
+    }
+
+    .infoEbook,
+    .nomeDoEbook,
+    .descricaoDoEbook {
+      float: left;
+    }
+
+    .descricaoDoEbook {
+      font-size: 0.9rem;
+      color: var(--cor-paragrafo);
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin: 10px 0;
+    }
+
+    .precoPromocaoDoEbook,
+    .precoOriginalDoEbook {
+      font-family: "Nunito Sans", sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .precoPromocaoDoEbook {
+      font-size: max(14px, 1.7vw);
+      color: var(--cor-bright-pink);
+      font-weight: bold;
+      width: 100%;
+      padding-top: 0.3rem;
+    }
+
+    .precoOriginalDoEbook {
+      color: #c9b9b9ab;
+      text-decoration: line-through;
+      font-size: clamp(10px, 1vw, 14px);
+      position: relative;
+      top: -8px;
+    }
+
+    .compraOuFav {
+      position: absolute;
+      top: 88%;
+      left: 50%;
+      display: flex;
+      justify-content: center;
+      font-size: max(12px, 1.6rem);
+
+      ion-icon {
+        font-size: clamp(18px, 2.5vw, 30px);
+        margin: 1vw;
+        cursor: pointer;
+        color: var(--cor-ultra-violet);
+      }
     }
   }
 }
@@ -140,20 +143,20 @@
 @media (max-width: 768px) {
   .cardEbookContainer {
     .nomeDoEbook {
-      -webkit-line-clamp: 1;
-      line-clamp: 1;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
+      padding: 0;
     }
+
+    .precoOriginalDoEbook {
+      margin-top: 3px;
+    }
+
     .descricaoDoEbook {
       width: 0;
       height: 0;
     }
+
     .precoPromocaoDoEbook {
       width: 100%;
-    }
-    .compraOuFav {
-      margin-top: -5px;
     }
   }
 }
