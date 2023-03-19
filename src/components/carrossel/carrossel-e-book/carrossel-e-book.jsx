@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from "react";
 
-import { CardProduto } from "../../card-produto/card-produto";
-import styles from "./carrossel-produto.module.scss";
+import { CardEbook } from "../../card-e-book/card-e-book";
+import styles from "./carrossel-e-book.module.scss";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export const CarrosselProduto = ({ tituloSecao, produtos }) => {
+export const CarrosselEbook = ({ tituloSecao, produtos }) => {
   const Carrossel = useRef(null);
 
   const btnVoltar = (e) => {
@@ -31,28 +31,28 @@ export const CarrosselProduto = ({ tituloSecao, produtos }) => {
       <div className={styles.elementosDoCarrossel}>
         <div className={styles.btns}>
           <div className={styles.containerBtnsMovimento}>
-            <button onClick={btnVoltar}>
+            <button onClick={btnVoltar} data-aos="fade-up">
               <ion-icon name="chevron-back-outline"></ion-icon>
             </button>
-            <button onClick={btnAvancar}>
+            <button onClick={btnAvancar} data-aos="fade-up">
               <ion-icon name="chevron-forward-outline"></ion-icon>
             </button>
           </div>
-          <button className={styles.btnVerTodos}>Veja a lista completa</button>
+          <button className={styles.btnVerTodos} data-aos="fade-up">Veja a lista completa</button>
         </div>
         <div className={styles.carrossel} ref={Carrossel}>
           <div className={styles.cardsContainer}>
             {produtos.map((produto) => (
               <div className={styles.card}>
-                <CardProduto
+                <CardEbook
                   key={produto.id}
                   imgCard={produto.imgCard}
                   altImgCard={produto.altImgCard}
-                  nomeDoProduto={produto.nomeDoProduto}
+                  nomeDoEbook={produto.nomeDoEbook}
                   categoriaDoEbook={produto.categoriaDoEbook}
-                  descricaoDoProduto={produto.descricaoDoProduto}
-                  precoPromocaoDoProduto={produto.precoPromocaoDoProduto}
-                  precoOriginalDoProduto={produto.precoOriginalDoProduto}
+                  descricaoDoEbook={produto.descricaoDoEbook}
+                  precoPromocaoDoEbook={produto.precoPromocaoDoEbook}
+                  precoOriginalDoEbook={produto.precoOriginalDoEbook}
                 />
               </div>
             ))}

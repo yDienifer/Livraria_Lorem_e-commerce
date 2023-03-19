@@ -10,9 +10,9 @@ import {
   LivrosRomance,
   LivrosSuspense,
   LivrosTerror,
-} from "./produtos.js";
+} from "./e-books.js";
 
-import { CarrosselProduto } from "../carrossel/carrossel-produto/carrossel-produto.jsx";
+import { CarrosselEbook } from "../carrossel/carrossel-e-book/carrossel-e-book";
 
 function Catalogo() {
   return (
@@ -21,24 +21,24 @@ function Catalogo() {
         <Promocoes />
       </div>
       <div className="container">
-        <CarrosselProduto
+        <CarrosselEbook
           tituloSecao="Os livros mais vendidos do mês!"
           produtos={LivrosMaisVendidos}
         />
-        <CarrosselProduto
+        <CarrosselEbook
           tituloSecao="Lançamentos imperdíveis do ano!"
           produtos={Lançamentos}
         />
         <Anuncio />
-        <CarrosselProduto
+        <CarrosselEbook
           tituloSecao="Aqui, o terror não tem fim!"
           produtos={LivrosTerror}
         />
-        <CarrosselProduto
+        <CarrosselEbook
           tituloSecao="O amor está entre as páginas!"
           produtos={LivrosRomance}
         />
-        <CarrosselProduto
+        <CarrosselEbook
           tituloSecao="Mistérios à Espreita"
           produtos={LivrosSuspense}
         />

@@ -32,10 +32,10 @@ export default function Categorias() {
         </h1>
         <div className={styles.btns}>
           <div>
-            <button onClick={btnVoltar}>
+            <button onClick={btnVoltar} data-aos="fade-up">
               <ion-icon name="chevron-back-outline"></ion-icon>
             </button>
-            <button onClick={btnAvancar}>
+            <button onClick={btnAvancar} data-aos="fade-up">
               <ion-icon name="chevron-forward-outline"></ion-icon>
             </button>
           </div>

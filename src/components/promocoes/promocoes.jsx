@@ -1,4 +1,4 @@
-import { CardProduto } from "../card-produto/card-produto.jsx";
+import { CardEbook } from "../card-e-book/card-e-book";
 
 import styles from "./promocoes.module.scss";
 
@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 import { useRef } from "react";
 import { promocoes } from "./promocoes.js";
-import { CarrosselProduto } from "../carrossel/carrossel-produto/carrossel-produto.jsx";
+import { CarrosselEbook } from "../carrossel/carrossel-e-book/carrossel-e-book";
 import { Marquee } from "../marquee/marquee.jsx";
 
 export const Promocoes = () => {
@@ -16,7 +16,7 @@ export const Promocoes = () => {
       <Marquee />
       <div className={styles.carrosselPromocoes}>
         <div className="container">
-          <CarrosselProduto produtos={promocoes} />
+          <CarrosselEbook produtos={promocoes} />
         </div>
       </div>
     </div>

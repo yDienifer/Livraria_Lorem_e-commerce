@@ -1,35 +1,35 @@
 import React, { useEffect } from "react";
-import styles from "./card-produto.module.scss";
+import styles from "./card-e-book.module.scss";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export const CardProduto = ({
+export const CardEbook = ({
   imgCard,
   altImgCard,
-  nomeDoProduto,
+  nomeDoEbook,
   categoriaDoEbook,
-  descricaoDoProduto,
-  precoPromocaoDoProduto,
-  precoOriginalDoProduto,
+  descricaoDoEbook,
+  precoPromocaoDoEbook,
+  precoOriginalDoEbook,
 }) => {
   useEffect(() => {
     AOS.init({ duration: 1950 });
   }, []);
   
   return (
-    <div className={styles.cardProdutoContainer} data-aos="fade-up">
+    <div className={styles.cardEbookContainer} data-aos="fade-up">
       <div className={styles.card}>
         <img src={imgCard} alt={altImgCard} className={styles.imgCard} />
-        <div className={`${styles.infoProduto} ${precoOriginalDoProduto ? "" : styles.semPromocao}`}>
-          <h1 className={styles.nomeDoProduto}>{nomeDoProduto}</h1>
+        <div className={`${styles.infoEbook} ${precoOriginalDoEbook ? "" : styles.semPromocao}`}>
+          <h1 className={styles.nomeDoEbook}>{nomeDoEbook}</h1>
           <span className={styles.categoriaDoEbook}>{categoriaDoEbook}</span>
-          <span className={styles.descricaoDoProduto}>{descricaoDoProduto}</span>
-          <span className={styles.precoPromocaoDoProduto}>
-            {precoPromocaoDoProduto}
+          <span className={styles.descricaoDoEbook}>{descricaoDoEbook}</span>
+          <span className={styles.precoPromocaoDoEbook}>
+            {precoPromocaoDoEbook}
           </span>
-          <span className={styles.precoOriginalDoProduto}>
-            {precoOriginalDoProduto}
+          <span className={styles.precoOriginalDoEbook}>
+            {precoOriginalDoEbook}
           </span>
           <div className={styles.compraOuFav}>
             <ion-icon name="cart-outline" alt="Favoritar"></ion-icon>
