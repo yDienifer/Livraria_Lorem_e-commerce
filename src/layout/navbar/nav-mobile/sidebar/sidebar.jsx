@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { ItensSidebar } from "./sidebar";
 
 import styles from "./sidebar.module.scss";
@@ -7,7 +9,12 @@ export const Sidebar = () => {
     <div className={styles.sidebarContainer}>
       <div className={styles.conta}>
         <img src="static/img/profile/profile.svg" alt="conta" />
-        <span>Não logado</span>
+        <div className={styles.informacoesSobreAConta}>
+          <span>Não logado</span>
+          <span>
+            <Link to="/">Entrar agora</Link>
+          </span>
+        </div>
       </div>
       {ItensSidebar.map((item) => (
         <div className={styles.atalhos}>

@@ -5,6 +5,7 @@
   flex-direction: row;
   width: clamp(11rem, 40%, 425px); // estuda
   overflow: hidden;
+  z-index: -1;
 
   input {
     border: 1px solid #e2e2e2;

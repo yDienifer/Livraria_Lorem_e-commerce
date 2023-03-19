@@ -1,20 +1,38 @@
 @import "../../../../components/sass/mixins.module";
+@import "../../../../components/sass/variables.module";
 
 .sidebarContainer {
   position: absolute;
   top: -38px;
-  left: -31px;
-  width: 80vw;
-  background-color: var(--cor-platinum);
+  right: 0;
+  width: 100vw;
+  background-color: var(--cor-white-smoke);
   padding: 60px 20px;
 
-  img {
-    width: 60px;
-    margin-left: 3vw;
-  }
+  .conta {
+    display: flex;
+    width: 100vw;
 
-  span {
-    margin-left: -20px;
+    img {
+      width: 60px;
+      margin-left: 3vw;
+    }
+
+    .informacoesSobreAConta {
+      display: flex;
+      flex-direction: column;
+      span {
+        margin: 10px 0 0 -20px;
+      }
+
+      span:nth-of-type(2) {
+        margin-top: 0;
+      }
+
+      span:nth-of-type(2) {
+        font-size: clamp(10px, 3vw, 12px);
+      }
+    }
   }
 
   .atalhos {
@@ -22,7 +40,7 @@
     align-items: center;
     position: relative;
     top: 15px;
-    
+
     li {
       padding: 12px;
     }
