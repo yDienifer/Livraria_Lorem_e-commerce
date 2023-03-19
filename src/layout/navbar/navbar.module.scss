@@ -16,6 +16,7 @@ header {
   .navMobile {
     @include centralização-vertical;
     width: 95vw;
+    z-index: 2;
   }
 
   .funcionalidades {
