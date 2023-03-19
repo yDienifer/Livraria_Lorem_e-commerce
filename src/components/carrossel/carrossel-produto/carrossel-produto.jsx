@@ -49,6 +49,7 @@ export const CarrosselProduto = ({ tituloSecao, produtos }) => {
                   imgCard={produto.imgCard}
                   altImgCard={produto.altImgCard}
                   nomeDoProduto={produto.nomeDoProduto}
+                  categoriaDoEbook={produto.categoriaDoEbook}
                   descricaoDoProduto={produto.descricaoDoProduto}
                   precoPromocaoDoProduto={produto.precoPromocaoDoProduto}
                   precoOriginalDoProduto={produto.precoOriginalDoProduto}

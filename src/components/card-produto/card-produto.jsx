@@ -8,6 +8,7 @@ export const CardProduto = ({
   imgCard,
   altImgCard,
   nomeDoProduto,
+  categoriaDoEbook,
   descricaoDoProduto,
   precoPromocaoDoProduto,
   precoOriginalDoProduto,
@@ -22,13 +23,14 @@ export const CardProduto = ({
         <img src={imgCard} alt={altImgCard} className={styles.imgCard} />
         <div className={`${styles.infoProduto} ${precoOriginalDoProduto ? "" : styles.semPromocao}`}>
           <h1 className={styles.nomeDoProduto}>{nomeDoProduto}</h1>
-          <p className={styles.descricaoDoProduto}>{descricaoDoProduto}</p>
-          <p className={styles.precoPromocaoDoProduto}>
+          <span className={styles.categoriaDoEbook}>{categoriaDoEbook}</span>
+          <span className={styles.descricaoDoProduto}>{descricaoDoProduto}</span>
+          <span className={styles.precoPromocaoDoProduto}>
             {precoPromocaoDoProduto}
-          </p>
-          <p className={styles.precoOriginalDoProduto}>
+          </span>
+          <span className={styles.precoOriginalDoProduto}>
             {precoOriginalDoProduto}
-          </p>
+          </span>
           <div className={styles.compraOuFav}>
             <ion-icon name="cart-outline" alt="Favoritar"></ion-icon>
             <ion-icon
