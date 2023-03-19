@@ -3,9 +3,9 @@
 .iconCategoriaContainer {
   border: none;
   background: none;
-  width: clamp(15px, 41vw, 150px);
+  width: clamp(15px, 41vw, 190px);
   cursor: pointer;
-  margin: 0 6px 0 0;
+  margin: 0 10px 0 0;
   padding-top: 2rem;
   transition: 0.4s;
 }
@@ -28,7 +28,7 @@
   font-size: max(10px, 1vw);
   width: 100%;
   padding-top: 15px;
-  text-align: left;
+  text-align: center;
 }
 
 // Responsividade
