@@ -1,21 +1,25 @@
+import { useRef } from "react"; /* Utilizado para criar uma referência a um elemento do DOM, sendo
+manipulado no React de forma imperativa. */
+
 import styles from "./form.module.scss";
 
 export const FormNovidades = () => {
+  const inputEmailRef = useRef(null);
+  // Referência
+
   window.onload = function () {
-    
     let botao = document.getElementById("botao-enviar");
 
     botao.onclick = function (e) {
-      var inputEmail = document.getElementById("input-email");
-      const emailDoUsuário = inputEmail.value;
-
-      if (inputEmail.value == "") {
-        inputEmail.style.border = "1px solid Red";
-        botao.style.backgroundColor = "Red";
+      if (inputEmailRef.current.value === "") {
+        inputEmailRef.current.style.borderColor = "red";
+        botao.style.backgroundColor = "red";
       } else {
-        if (confirm("Confirmou se todos os dados estão corretos?")) {
-          botao.style.backgroundColor = "Green";
-          alert(`Parabéns! O email ${emailDoUsuário} foi enviado com sucesso!`);
+        if (confirm("Você verificou se o endereço de e-mail está correto?")) {
+          botao.style.backgroundColor = "green";
+          alert(
+            `Parabéns! O e-mail ${inputEmailRef.current.value} foi registrado com sucesso!`
+          );
         } else {
           e.preventDefault(); // Evita que o form seja enviado automaticamente
         }
@@ -29,7 +33,7 @@ export const FormNovidades = () => {
         type="email"
         placeholder="Adicione o seu e-mail...."
         required
-        id="input-email"
+        ref={inputEmailRef} // Associa o inputEmailRef à referência
       />
       <input type="submit" value="Enviar" id="botao-enviar" />
     </form>
