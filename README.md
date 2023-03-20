@@ -39,6 +39,7 @@
 - [x] E-books em carrossel
 - [x] Formulário funcional
 - [ ] Menu interativo de conta, carrinho e compra
+- [ ] Menu hamburguer responsivo
 
 &nbsp;
 
