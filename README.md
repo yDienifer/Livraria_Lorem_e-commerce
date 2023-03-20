@@ -14,8 +14,8 @@
   <summary>Sumário</summary>
   <ol>
     <li><a href="#preview">Preview</a></li>
-    <li><a href="#metas-do-projeto">Metas do projeto</a></li>
-    <li><a href="##lista-de-browsers-compativeis">Lista de Browsers compatíveis</a></li>
+    <li><a href="#correções">Correções</a></li>
+    <li><a href="##lista-de-browsers-compatíveis">Lista de Browsers compatíveis</a></li>
     <li><a href="#como-experimentar-o-projeto">Como experimentar o projeto</a></li>
     <li><a href="#crédito-das-imagens-utilizadas-no-website">Crédito das imagens utilizadas no website</a></li>
   </ol>
@@ -30,12 +30,13 @@
 
 &nbsp;
 
-## Metas do projeto
+## Correções
 
 - [x] Banner "interativo"
 - [x] Responsividade
 - [x] Scroll reveal
 - [x] E-books em carrossel
+- [x] Formulário funcional 
 - [ ] Menu interativo de conta, carrinho e compra
 
 &nbsp;
