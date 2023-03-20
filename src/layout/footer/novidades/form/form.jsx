@@ -1,31 +1,33 @@
-import { useRef } from "react"; /* Utilizado para criar uma referência a um elemento do DOM, sendo
-manipulado no React de forma imperativa. */
-
+import { useRef } from "react";
 import styles from "./form.module.scss";
 
 export const FormNovidades = () => {
   const inputEmailRef = useRef(null);
-  // Referência
+  const botaoRef = useRef(null);
 
-  window.onload = function () {
-    let botao = document.getElementById("botao-enviar");
+  function submitBtn(e) {
+    if (!inputEmailRef.current.checkValidity()) {
+      // Estilização para entrada incorreta
+      inputEmailRef.current.style.borderColor = "red";
+      // Current = Propriedade do objeto retornado pelo useRef().
+      botaoRef.current.style.background = "red";
+    } else {
+      // Estilização para a entrada correta
+      inputEmailRef.current.style.borderColor = "green";
+      botaoRef.current.style.background = "green";
 
-    botao.onclick = function (e) {
-      if (inputEmailRef.current.value === "") {
-        inputEmailRef.current.style.borderColor = "red";
-        botao.style.backgroundColor = "red";
-      } else {
+      if (inputEmailRef.current.validity.valid) {
+        // A entrada está correta, portanto o alerta de confirmação pode ser exibido.
         if (confirm("Você verificou se o endereço de e-mail está correto?")) {
-          botao.style.backgroundColor = "green";
           alert(
             `Parabéns! O e-mail ${inputEmailRef.current.value} foi registrado com sucesso!`
           );
         } else {
-          e.preventDefault(); // Evita que o form seja enviado automaticamente
+          e.preventDefault();
         }
       }
-    };
-  };
+    }
+  }
 
   return (
     <form className={styles.formContainer}>
@@ -35,7 +37,13 @@ export const FormNovidades = () => {
         required
         ref={inputEmailRef} // Associa o inputEmailRef à referência
       />
-      <input type="submit" value="Enviar" id="botao-enviar" />
+      <input
+        type="submit"
+        value="Enviar"
+        id="botao-enviar"
+        onClick={submitBtn}
+        ref={botaoRef}
+      />
     </form>
   );
 };
