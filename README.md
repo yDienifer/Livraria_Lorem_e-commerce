@@ -15,7 +15,7 @@
   <ol>
     <li><a href="#preview">Preview</a></li>
     <li><a href="#metas-do-projeto">Metas do projeto</a></li>
-    <li><a href="#lista-de-browsers-compativeis">Lista de Browsers compatíveis</a></li>
+    <li><a href="##lista-de-browsers-compativeis">Lista de Browsers compatíveis</a></li>
     <li><a href="#como-experimentar-o-projeto">Como experimentar o projeto</a></li>
     <li><a href="#crédito-das-imagens-utilizadas-no-website">Crédito das imagens utilizadas no website</a></li>
   </ol>
