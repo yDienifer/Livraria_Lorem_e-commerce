@@ -1,6 +1,7 @@
 <img src="https://user-images.githubusercontent.com/108842368/225998008-fbe71a97-de7d-44f1-9c7b-d732b36d6396.png" width="300px" min-width="300px" max-width="500px" align="right" alt="Logo Livraria Lorem">
 
-# Livraria Lorem 
+# Livraria Lorem
+
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=6C63FF&style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/yDienifer/Livraria_Lorem_e-commerce?color=6C63FF&style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/yDienifer/Livraria_Lorem_e-commerce?color=6C63FF&style=for-the-badge)
@@ -8,7 +9,7 @@
 
 > A Livraria Lorem é um projeto de e-commerce de livros desenvolvido com o objetivo de aprimorar habilidades em ferramentas React e Sass.
 
-> Oferecemos uma ampla variedade de gêneros de e-books para você escolher e adquirir com facilidade. Com um design moderno e intuitivo, a Livraria Lorem proporciona uma experiência de compra fácil e agradável para o usuário. 
+> Oferecemos uma ampla variedade de gêneros de e-books para você escolher e adquirir com facilidade. Com um design moderno e intuitivo, a Livraria Lorem proporciona uma experiência de compra fácil e agradável para o usuário.
 
 <details>
   <summary>Sumário</summary>
@@ -24,6 +25,7 @@
 <div align="center">
 
 ## Preview
+
   <img src="https://user-images.githubusercontent.com/108842368/226456358-09d21c43-70d1-493c-9e78-9194d0b27721.png" width="80%" alt="Preview">
 </div>
 
@@ -35,12 +37,13 @@
 - [x] Responsividade
 - [x] Scroll reveal
 - [x] E-books em carrossel
-- [x] Formulário funcional 
+- [x] Formulário funcional
 - [ ] Menu interativo de conta, carrinho e compra
 
 &nbsp;
 
 ## Lista de Browsers compatíveis
+
 - [x] Google Chrome
 - [x] Firefox (Sofrerá alterações em breve)
 - [x] Opera
@@ -49,10 +52,13 @@
 &nbsp;
 
 ## Como experimentar o projeto?
-* Passo 1: Clone este repositório em sua máquina: `git clone https://github.com/yDienifer/Livraria_Lorem_e-commerce.git`
-* Passo 2: Instale as dependências necessárias com o comando `npm install`
-* Passo 3: Inicie o servidor local: `npm start`
-* Divirta-se! :D
+
+- Passo 1: Clone este repositório em sua máquina: `git clone https://github.com/yDienifer/Livraria_Lorem_e-commerce.git`
+- Passo 2: Instale as dependências necessárias com o comando `npm install`
+- Passo 3: Inicie o servidor local: `npm start`
+- Divirta-se! :D
+
+> Aviso: Após digitar o comando npm start, é possível notar que o nome do projeto é exibido como "the-sims@0.1.0 start". Inicialmente, o projeto se tratava de um website sobre o jogo "The Sims". No entanto, devido a restrições de direitos autorais, foi preciso alterar o conteúdo do site para uma livraria. Desconhecia que não seria possível modificar o nome do projeto posteriormente. Infelizmente, foi necessário mantê-lo dessa forma, pois só tomei conhecimento dos direitos autorais após a finalização do website.
 
 > Aviso: Após digitar o comando npm start, é possível notar que o nome do projeto é exibido como "the-sims@0.1.0 start". Inicialmente, o projeto se tratava de um website sobre o jogo "The Sims". No entanto, devido a restrições de direitos autorais, foi preciso alterar o conteúdo do site para uma livraria. Desconhecia que não seria possível modificar o nome do projeto posteriormente. Infelizmente, foi necessário mantê-lo dessa forma, pois só tomei conhecimento dos direitos autorais após a finalização do website.
 
@@ -71,7 +77,7 @@
 
 #### Seção: Terror
 
-<a href="https://www.freepik.com/free-photo/light-from-open-door_3012297.htm#query=mistery%20suspense&position=0&from_view=search&track=ais">E-book cover: Deserunt tempor</a> | <a href="https://www.freepik.com/free-photo/spooky-scene-with-man-floating-indoors_32879723.htm#query=mistery%20suspense&position=17&from_view=search&track=ais">E-book cover: Laboris ipsum</a> | <a href="https://www.freepik.com/free-photo/man-holding-lantern-skull-night_5397751.htm#query=mistery%20suspense&position=28&from_view=search&track=ais">E-book cover: Lorem dolor</a> | <a href="https://www.freepik.com/free-photo/medium-shot-make-up-woman-clown-holding-hat_5435254.htm#page=2&query=mistery%20suspense&position=1&from_view=search&track=ais">E-book cover: Occafcat fugit</a> | <a href="https://br.freepik.com/fotos-gratis/zumbi-assustador-em-uma-janela_19298954.htm#query=terror&position=6&from_view=keyword&track=sph">E-book cover:  Magna aliqua<a/> | <a href="https://br.freepik.com/fotos-gratis/renderizacao-3d-de-uma-paisagem-de-halloween-com-floresta-de-nevoeiro-assustador_9812700.htm#page=2&query=terror&position=25&from_view=keyword&track=sph">E-book cover: Auto irure lorem</a> | <a href="https://br.freepik.com/fotos-gratis/arranjo-de-bruxaria-com-luzes-de-vela-no-escuro_5397630.htm">E-book cover: Eiusmod lorem</a>
+<a href="https://www.freepik.com/free-photo/light-from-open-door_3012297.htm#query=mistery%20suspense&position=0&from_view=search&track=ais">E-book cover: Deserunt tempor</a> | <a href="https://www.freepik.com/free-photo/spooky-scene-with-man-floating-indoors_32879723.htm#query=mistery%20suspense&position=17&from_view=search&track=ais">E-book cover: Laboris ipsum</a> | <a href="https://www.freepik.com/free-photo/man-holding-lantern-skull-night_5397751.htm#query=mistery%20suspense&position=28&from_view=search&track=ais">E-book cover: Lorem dolor</a> | <a href="https://www.freepik.com/free-photo/medium-shot-make-up-woman-clown-holding-hat_5435254.htm#page=2&query=mistery%20suspense&position=1&from_view=search&track=ais">E-book cover: Occafcat fugit</a> | <a href="https://br.freepik.com/fotos-gratis/zumbi-assustador-em-uma-janela_19298954.htm#query=terror&position=6&from_view=keyword&track=sph">E-book cover: Magna aliqua<a/> | <a href="https://br.freepik.com/fotos-gratis/renderizacao-3d-de-uma-paisagem-de-halloween-com-floresta-de-nevoeiro-assustador_9812700.htm#page=2&query=terror&position=25&from_view=keyword&track=sph">E-book cover: Auto irure lorem</a> | <a href="https://br.freepik.com/fotos-gratis/arranjo-de-bruxaria-com-luzes-de-vela-no-escuro_5397630.htm">E-book cover: Eiusmod lorem</a>
 
 #### Seção: Romance
 
