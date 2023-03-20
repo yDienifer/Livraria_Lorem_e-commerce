@@ -61,6 +61,7 @@
 ## Créditos
 
 <h3><a href="https://undraw.co/illustrations">Imagens do banner e footer</a></h3>
+<h3><a href="https://www.ea.com/pt-br/games/the-sims/the-sims-4/store">Inspiração para o design do site</a></h3>
 
 ### Imagens utilizadas na capa dos e-books 📚
 
