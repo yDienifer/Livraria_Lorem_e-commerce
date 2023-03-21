@@ -3,7 +3,7 @@
 .pesquisaContainer {
   display: flex;
   flex-direction: row;
-  width: clamp(11rem, 40%, 425px); // estuda
+  width: clamp(11rem, 40%, 425px); 
   overflow: hidden;
   z-index: 1;
 

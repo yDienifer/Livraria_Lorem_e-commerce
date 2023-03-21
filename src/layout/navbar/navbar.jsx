@@ -42,11 +42,11 @@ export default function Navbar({ valorDoFiltro, setValorDoFiltro }) {
 
   return (
     <header>
-      <div className={styles.navMobile}>
-        <Hamburguer />
-      </div>
       <div className={styles.funcionalidades}>
         <LogoLivraria />
+        <div className={styles.navMobile}>
+          <Hamburguer />
+        </div>
         <Pesquisa
           className={styles.pesquisa}
           valorDoFiltro={valorDoFiltro}
