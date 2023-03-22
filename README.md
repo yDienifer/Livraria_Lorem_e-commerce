@@ -61,8 +61,6 @@
 
 > Aviso: Após digitar o comando npm start, é possível notar que o nome do projeto é exibido como "the-sims@0.1.0 start". Inicialmente, o projeto se tratava de um website sobre o jogo "The Sims". No entanto, devido a restrições de direitos autorais, foi preciso alterar o conteúdo do site para uma livraria. Desconhecia que não seria possível modificar o nome do projeto posteriormente. Infelizmente, foi necessário mantê-lo dessa forma, pois só tomei conhecimento dos direitos autorais após a finalização do website.
 
-> Aviso: Após digitar o comando npm start, é possível notar que o nome do projeto é exibido como "the-sims@0.1.0 start". Inicialmente, o projeto se tratava de um website sobre o jogo "The Sims". No entanto, devido a restrições de direitos autorais, foi preciso alterar o conteúdo do site para uma livraria. Desconhecia que não seria possível modificar o nome do projeto posteriormente. Infelizmente, foi necessário mantê-lo dessa forma, pois só tomei conhecimento dos direitos autorais após a finalização do website.
-
 &nbsp;
 
 ## Créditos
